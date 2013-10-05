@@ -9,7 +9,7 @@ var Batiments = $.inherit({
 		
 		this.LaunchBat();
 		
-		alert('test');
+		alert('testo');
 		
 	},
 	

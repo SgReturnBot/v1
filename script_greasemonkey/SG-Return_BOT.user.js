@@ -4,8 +4,12 @@
 // @include     http://www.sg-return.fr/*
 // @require		https://raw.github.com/dfilatov/jquery-plugins/master/src/jquery.inherit/jquery.inherit.min.js
 // @require 	https://raw.github.com/carhartl/jquery-cookie/master/jquery.cookie.js
-// @version     4
-// @grant       none
+// @version     22
+// @grant       GM_setValue
+// @grant       GM_getValue
+// @grant   	GM_xmlhttpRequest
+// @grant       GM_log
+// @grant  		unsafeWindow
 // ==/UserScript==
 
 /**
@@ -22,7 +26,7 @@ $.when(
 	$.getScript(url + "library.js")
 ).done(function(){
 
-	$(document).ready(function() {
+	(function($){
 		var OBatiments = new Batiments(true);
 		var OTechnologies = new Technologies(true);
 		
@@ -34,5 +38,5 @@ $.when(
 			}
 		});
 		
-	});
+	})(unsafeWindow.jQuery)
 });

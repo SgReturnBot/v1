@@ -8,12 +8,22 @@
 // @grant       none
 // ==/UserScript==
 
+/**
+ * Version Local
+ */
+//var url = "http://localhost/devBot/";
+/**
+ * Version Prod
+ */
+var url = "https://raw.github.com/SgReturnBot/v1/master/library/";
 $.when(
-    $.getScript("https://raw.github.com/SgReturnBot/v1/master/library/batiments.js")
+    $.getScript(url + "batiments.js"),
+	$.getScript(url + "technologies.js"),
+	$.getScript(url + "library.js")
 ).done(function(){
 
 	$(document).ready(function() {
-		var Bsatiments = new Batiments();
+		var OBatiments = new Batiments(true);
+		var OTechnologies = new Technologies(true);
 	});
 });
-

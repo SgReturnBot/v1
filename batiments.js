@@ -9,7 +9,10 @@ var Batiments = $.inherit({
 		
 		this.LaunchBat();
 		
+		alert('test');
+		
 	},
+	
 	
 	creerListeNom : function() {
 		var $this = this;

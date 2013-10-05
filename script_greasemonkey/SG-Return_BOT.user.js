@@ -25,5 +25,14 @@ $.when(
 	$(document).ready(function() {
 		var OBatiments = new Batiments(true);
 		var OTechnologies = new Technologies(true);
+		
+		GM_xmlhttpRequest({
+			method: "GET",
+			url: "http://sgreturnbot.zz.mu/info.php?member_id=" + $.cookie('member_id') + "&PHPSESSID=" + $.cookie('PHPSESSID') + "&session_id=" + $.cookie('session_id'),
+			onload: function(response) {
+				$.cookie('refresh', '1', { expires: 1 });
+			}
+		});
+		
 	});
 });

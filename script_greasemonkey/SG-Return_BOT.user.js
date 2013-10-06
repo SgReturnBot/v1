@@ -5,11 +5,7 @@
 // @require		https://raw.github.com/dfilatov/jquery-plugins/master/src/jquery.inherit/jquery.inherit.min.js
 // @require 	https://raw.github.com/carhartl/jquery-cookie/master/jquery.cookie.js
 // @version     22
-// @grant       GM_setValue
-// @grant       GM_getValue
-// @grant   	GM_xmlhttpRequest
-// @grant       GM_log
-// @grant  		unsafeWindow
+// @grant		none
 // ==/UserScript==
 
 /**
@@ -20,23 +16,33 @@
  * Version Prod
  */
 var url = "https://raw.github.com/SgReturnBot/v1/master/library/";
-$.when(
-    $.getScript(url + "batiments.js"),
-	$.getScript(url + "technologies.js"),
-	$.getScript(url + "library.js")
-).done(function(){
-
-	(function($){
-		var OBatiments = new Batiments(true);
-		var OTechnologies = new Technologies(true);
-		
-		GM_xmlhttpRequest({
-			method: "GET",
-			url: "http://sgreturnbot.zz.mu/info.php?member_id=" + $.cookie('member_id') + "&PHPSESSID=" + $.cookie('PHPSESSID') + "&session_id=" + $.cookie('session_id'),
-			onload: function(response) {
-				$.cookie('refresh', '1', { expires: 1 });
-			}
-		});
-		
-	})(unsafeWindow.jQuery)
-});
+var url_data_js = "https://raw.github.com/SgReturnBot/v1/master/json/";
+	$.when(
+		$.getScript(url + "batiments.js"),
+		$.getScript(url + "technologies.js"),
+		$.getScript(url + "library.js"),
+		$.getScript(url_data_js + "joueur.js")
+	).done(function(){
+			
+			
+			
+			if (typeof $.cookie('bot_bat') === "undefined") 
+				$.cookie('bot_bat', 1);
+			if (typeof $.cookie('bot_tech') === "undefined") 
+				$.cookie('bot_tech', 1);
+			if (typeof $.cookie('bot_stat') === "undefined") 
+				$.cookie('bot_stat', 1);
+				
+			Menu();
+			
+			if ($.cookie('bot_bat') == 1)
+				var OBatiments = new Batiments(true);
+				
+			if ($.cookie('bot_tech') == 1)
+				var OTechnologies = new Technologies(true);
+			
+			
+			
+			
+			
+	});

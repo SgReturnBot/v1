@@ -1,1 +1,212 @@
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('5 n=$.1p({1q:4(a){8(u $.6(\'7\')==="v")$.6(\'7\',"");3.j=1r 1s;3.T();8(/l=n/.U(1t.1u))3.F();8(a)3.G()},V:4(){$(\'.H .I\').p(4(){5 a=$(3).k(\'a\').J();W=a.m(\'q\');5 b=/o=([0-9]+)/.w(W)[1];a.m(\'K\',\'1v\'+b);$(3).m(\'K\',\'1w\'+b)})},T:4(){5 d=3;8(u $.6(\'j\')==\'v\')$.x({L:"/r.s?l=X&Y=n&y=1&x=1&1x=1",1y:"1z",1A:"z",1B:{Y:\'n\',y:\'1\',l:\'X\'}}).M(4(b){$(\'1C\').1D($(\'<i N="O" K="1E">\'+b+\'</i>\').1F());5 c=$(\'#O\').k(\'1G.1H 1I 1J:J-1K a.1L\');$(c).p(4(){5 a=/o=([0-9]+)/.w($(3).m(\'q\'))[1];d.j[a]=$(3).A();1M.1N($(3).A())});$(\'#O\').Z();$.6(\'j\',1O.1P(d.j))});B d.j=$.1Q($.6(\'j\'))},F:4(){3.10();5 a=3;11(4(){a.F()},1R)},10:4(){8($(\'#P\').C===0){$(\'<i D="A-12: 13;" Q="1S">1T d\\\'14 15 1U:</i><i N="P" D="1V: 1W; 1X: 0 16 0 16; I: 1Y 1Z 20; 21: 22; 23: 17; 24-25: #26; 27: 0 17;"></i><R /><i D="A-12: 13;"><a 28="18" q="19 S;" Q="1a">18 1b 29 2a 15 1b 1c</a></i><R /><i N="1d"></i>\').2b(\'#1d\');3.1e();3.V();3.1f()}5 b=\'\';$3=3;5 t=$.6(\'7\').E(\':\');8(t.C!==0&&$.6(\'7\')!==""){$.p(t,4(a){b+=(a+1)+" - "+$3.j[t[a]]+" <R />"})}B b="2c H 2d 1c d\'14.";$(\'#P\').z(b)},1f:4(){5 a=$(\'.1g\');$(\'a[1h=2e]\').Z();a.p(4(){$(3).z($(3).z()+\'<2f 2g="2h/2i/2j/1g.2k" Q="1i" D="2l: 2m;" />\')});5 b=3;$(\'.1i\').1j(4(){b.1k(3)})},1k:4(a){5 b=$(a).1l().1l().k(\'a\').m(\'q\');3.1m(/o=([0-9]+)/.w(b)[1])},1m:4(a){8(u $.6(\'7\')==="v"||$.6(\'7\')==""){$.6(\'7\',a)}B{$.6(\'7\',$.6(\'7\')+\':\'+a)}},G:4(){5 b=3;8(u $.6(\'7\')!=="v"&&$.6(\'7\')!==""){$.x({L:"/r.s?l=2n",}).M(4(a){8($($(a).k(\'#2o\').k(\'2p\')[1]).k(\'.2q\').C==0){b.1n($.6(\'7\').E(\':\')[0])}})}11(4(){b.G()},2r)},1n:4(g){8(g<2s)5 h="/r.s?l=n&o=1&y=1";B 8(g<2t)5 h="/r.s?l=n&o=2&y=1";$.x({L:h,2u:S}).M(4(f){$(f).k(\'.H .I\').p(4(){5 a=$(3).k(\'a\').J();5 b=a.m(\'q\');5 c=a.m(\'1h\');5 d=/o=([0-9]+)/.w(b)[1];8(g==d){8(!/2v/.U(c)){2w(\'r.s?l=2x&2y=\'+g+\'&2z=1\',\'2A\');5 e=$.6(\'7\').E(\':\');e.2B();$.6(\'7\',(e.C>0)?e.1o(\':\'):\'\')}}})})},1e:4(){$(\'.1a\').1j(4(){5 a=$.6(\'7\').E(\':\');a.2C();$.6(\'7\',a.1o(\':\'))});19 S}});',62,163,'|||this|function|var|cookie|techwaitlist|if||||||||||div|tab_nom_tech|find|page|attr|Technologies|Tech|each|onclick|index|php||typeof|undefined|exec|ajax|nores|html|text|else|length|style|split|Actualisation|LaunchTech|batiment|border|first|name|url|done|id|ConnardeMattt34|waitlist|class|br|false|creerListeNom|test|mapper|value|ArbreTech|Type|remove|InsertWaitList|setTimeout|align|center|attente|de|20px|auto|Annuler|return|removebat|la|liste|ResSeparationMin|RemoveLastBat|InsertBouttonBat|construire|title|buildBot|click|Buildtechwaitlist|parent|insertBatCookie|HasRequisForBuild|join|inherit|__constructor|new|Object|location|search|a_bat_|bat_|affichageAJAX|type|POST|dataType|data|body|append|ChichilleTG|hide|table|texte|tr|td|child|link|console|log|JSON|stringify|parseJSON|500|entete|Liste|construction|width|220px|padding|1px|solid|black|height|120px|overflow|background|color|333333|margin|href|dernier|technologie|insertAfter|Aucun|en|Construire|img|src|theme|images|icones|png|cursor|pointer|salleDeControle|constructions|li|Compte_a_rebours|10000|200|300|async|Valeur_PASOK|AfficherPage|EvolutionTech|tech|Go|contenu|shift|pop'.split('|'),0,{}))
+var Technologies = $.inherit({
+
+	__constructor : function(reload){
+	
+		if(typeof $.cookie('techwaitlist') === "undefined")
+			$.cookie('techwaitlist', "");
+			
+		
+		this.tab_nom_tech = new Object;
+		this.creerListeNom();
+		
+		if(/page=Technologies/.test(location.search))
+			this.Actualisation();
+			
+		if (reload)
+			this.LaunchTech();
+	},
+	
+	mapper: function() {
+		
+		$('.batiment .border').each(function() {
+			var a = $(this).find('a').first();
+			
+			value = a.attr('onclick');
+
+			var id = /Tech=([0-9]+)/.exec(value)[1];
+			
+			a.attr('name', 'a_bat_'+id);
+			$(this).attr('name', 'bat_'+id);
+			
+		});
+		
+	},
+	
+	creerListeNom : function() {
+		var $this = this;
+		
+		if(typeof $.cookie('tab_nom_tech') == 'undefined')
+			$.ajax({
+				url: "/index.php?page=ArbreTech&Type=Technologies&nores=1&ajax=1&affichageAJAX=1",
+				type: "POST",
+				dataType : "html",
+				data: {
+					Type:	'Technologies',
+					nores:	'1',
+					page:	'ArbreTech'
+				}
+			}).done(function(data) {
+				$('body').append( $('<div id="ConnardeMattt34" name="ChichilleTG">' + data + '</div>').hide());
+				var $tab_ligne = $('#ConnardeMattt34').find('table.texte tr td:first-child a.link');
+				
+				$($tab_ligne).each(function(){
+					
+					var id = /Tech=([0-9]+)/.exec($(this).attr('onclick'))[1];
+					$this.tab_nom_tech[id] = $(this).text(); console.log($(this).text());
+				});
+				$('#ConnardeMattt34').remove();
+				$.cookie('tab_nom_tech', JSON.stringify($this.tab_nom_tech));
+			});
+		else
+			$this.tab_nom_tech = $.parseJSON($.cookie('tab_nom_tech'));
+	},
+	
+	Actualisation: function () {
+		
+		this.InsertWaitList();
+		
+		var obj = this;
+		
+		setTimeout(function() {
+			obj.Actualisation();
+		}, 500);
+		
+	},
+	
+	InsertWaitList: function() {
+		if ($('#waitlist').length === 0) {
+			
+			$('<div style="text-align: center;" class="entete">Liste d\'attente de construction:</div><div id="waitlist" style="width: 220px; padding: 0 20px 0 20px; border: 1px solid black; height: 120px; overflow: auto; background-color: #333333; margin: 0 auto;"></div><br /><div style="text-align: center;"><a href="Annuler" onclick="return false;" class="removebat">Annuler la derniere technologie de la liste</a></div><br /><div id="ResSeparationMin"></div>').insertAfter('#ResSeparationMin');
+			this.RemoveLastBat();
+			this.mapper();
+			this.InsertBouttonBat();
+		}
+		
+		var batiment = '';
+		$this = this;
+		
+		var t = $.cookie('techwaitlist').split(':');
+		
+		if (t.length !== 0 && $.cookie('techwaitlist') !=="") {
+
+			$.each(t, function(index) {
+				batiment += (index + 1) + " - " + $this.tab_nom_tech[t[index]] + " <br />" ;
+				
+			});
+		} else batiment = "Aucune technologie en liste d'attente.";
+		
+		$('#waitlist').html(batiment);
+		
+	},
+	
+	InsertBouttonBat:  function() {
+		var bats = $('.construire');
+		
+		$('a[title=Construire]').remove();
+		
+		bats.each(function() {
+			$(this).html($(this).html()+'<img src="theme/images/icones/construire.png" class="buildBot" style="cursor: pointer;" />');
+		});
+		
+		var obj = this;
+		
+		$('.buildBot').click(function() {
+			obj.Buildtechwaitlist(this);
+		});
+		
+	},
+	
+	Buildtechwaitlist: function (el) {
+		
+		var value = $(el).parent().parent().find('a').attr('onclick');
+
+		this.insertBatCookie(/Tech=([0-9]+)/.exec(value)[1]);
+		
+	},
+	
+	
+	insertBatCookie: function (idBat) {
+		
+		if (typeof $.cookie('techwaitlist') === "undefined" || $.cookie('techwaitlist') == "") {
+			$.cookie('techwaitlist', idBat)
+		} else {
+			$.cookie('techwaitlist', $.cookie('techwaitlist') + ':' + idBat);
+		}
+		
+	},
+	
+	LaunchTech: function() {
+		var obj = this;
+		
+		if (typeof $.cookie('techwaitlist') !== "undefined" && $.cookie('techwaitlist') !== "") {
+
+			$.ajax({
+				url: "/index.php?page=salleDeControle",
+			}).done(function(data) {
+				if ( $($(data).find('#constructions').find('li')[1]).find('.Compte_a_rebours').length == 0 ) {
+					
+					obj.HasRequisForBuild($.cookie('techwaitlist').split(':')[0]);
+				}
+				
+			})
+
+		}
+		
+		
+		
+		setTimeout(function() {
+			obj.LaunchTech();
+		}, 10000);
+		
+	},
+	
+	HasRequisForBuild: function(id) {
+	
+		if (id < 200)
+			var url = "/index.php?page=Technologies&Tech=1&nores=1";
+		else if (id < 300)
+			var url = "/index.php?page=Technologies&Tech=2&nores=1";
+			
+		$.ajax({
+			url: url,
+			async : false
+		}).done(function(data) {
+		
+			$(data).find('.batiment .border').each(function() {
+				var a = $(this).find('a').first();
+				var value = a.attr('onclick');
+				var title = a.attr('title');
+				
+				var idd = /Tech=([0-9]+)/.exec(value)[1];
+				
+				if (id == idd) {
+					if (!/Valeur_PASOK/.test(title)) {
+						AfficherPage('index.php?page=EvolutionTech&tech=' + id + '&Go=1','contenu');
+						
+						var nouvelle_liste = $.cookie('techwaitlist').split(':');
+						nouvelle_liste.shift();
+						$.cookie('techwaitlist', (nouvelle_liste.length > 0) ? nouvelle_liste.join(':') : '');
+					}
+					
+				}
+				
+				
+			});
+			
+		});
+		
+	},
+	
+	RemoveLastBat: function() {
+		
+		$('.removebat').click(function() {
+		
+			var tab = $.cookie('techwaitlist').split(':');
+			tab.pop();
+			
+			$.cookie('techwaitlist', tab.join(':'));
+		});
+		return false;
+	}
+	
+});

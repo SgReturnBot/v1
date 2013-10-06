@@ -1,1 +1,217 @@
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6 s=$.1w({1x:5(10){b(x $.7(\'8\')==="y")$.7(\'8\',"");4.g=1y 1z;4.11();b(/f=s/.G(1A.1B))4.H();b(10)4.I()},12:5(){$(\'.h .J\').u(5(){6 a=$(4).i(\'a\').z();p=a.l(\'v\');6 c=/m=([0-9]+)/.A(p)[1];a.l(\'13\',\'1C\'+c);$(4).l(\'13\',\'1D\'+c)})},11:5(){6 $4=4;b(x $.7(\'g\')==\'y\')$.K({n:"/e.j?f=1E",}).L(5(q){6 $14=$(q).i(\'#1F 1G.1H 1I 1J:z-1K a.1L\');$14.u(5(){6 c=/m=([0-9]+)/.A($(4).l(\'v\'))[1];$4.g[c]=$(4).M()});$.7(\'g\',1M.1N($4.g))});r $4.g=$.1O($.7(\'g\'))},H:5(){4.15();6 o=4;N(5(){o.H()},16)},15:5(){b($(\'#O\').B===0){$(\'<k C="M-17: 18;" D="1P">1Q d\\\'19 1a 1R:</k><k c="O" C="1S: 1T; 1U: 0 1b 0 1b; J: 1V 1W 1X; 1Y: 1Z; 20: 1c; 21-22: #23; 24: 0 1c;"></k><P /><k C="M-17: 18;"><a 25="1d" v="1e Q;" D="1f">1d 26 27 h 1a 28 1g</a></k><P /><k c="1h"></k>\').29(\'#1h\');4.1i();4.12();4.1j()}6 h=\'\';$4=4;6 t=$.7(\'8\').E(\':\');b(t.B!==0&&$.7(\'8\')!==""){$.u(t,5(e){h+=(e+1)+" - "+$4.g[t[e]]+" <P />"})}r h="2a h 2b 1g d\'19.";$(\'#O\').R(h)},1j:5(){6 1k=$(\'.1l\');$(\'a[w=2c]\').2d();1k.u(5(){$(4).R($(4).R()+\'<2e 2f="2g/2h/2i/1l.2j" D="1m" C="2k: 2l;" />\')});6 o=4;$(\'.1m\').1n(5(){o.1o(4)})},1o:5(1p){6 p=$(1p).1q().1q().i(\'a\').l(\'v\');4.1r(/m=([0-9]+)/.A(p)[1])},1r:5(S){b(x $.7(\'8\')==="y"||$.7(\'8\')==""){$.7(\'8\',S)}r{$.7(\'8\',$.7(\'8\')+\':\'+S)}},I:5(){6 o=4;b(x $.7(\'8\')!=="y"&&$.7(\'8\')!==""){$.K({n:"/e.j?f=2m",}).L(5(q){b($(q).i(\'#2n\').i(\'2o\').z().i(\'.2p\').B===0){o.1s($.7(\'8\').E(\':\')[0])}})}N(5(){o.I()},2q)},1s:5(c){b(c<2r)6 n="/e.j?f=s&m=1&T=1";r b(c<2s)6 n="/e.j?f=s&m=2&T=1";r b(c<2t)6 n="/e.j?f=s&m=3&T=1";$.K({n:n,2u:Q}).L(5(q){$(q).i(\'.h .J\').u(5(){6 a=$(4).i(\'a\').z();6 p=a.l(\'v\');6 w=a.l(\'w\');6 1t=/m=([0-9]+)/.A(p)[1];b(c==1t){b(/1u/.G(w)){b(/2v : <2w D=\'1u\'>/.G(w)){U(\'e.j?f=V&W=2x&X=1\',\'Y\');N(5(){U(\'e.j?f=V&W=2y&X=1\',\'Y\')},16)}}r{U(\'e.j?f=V&W=\'+c+\'&X=1\',\'Y\');6 F=$.7(\'8\').E(\':\');F.2z();$.7(\'8\',(F.B>0)?F.1v(\':\'):\'\')}}})})},1i:5(){$(\'.1f\').1n(5(){6 Z=$.7(\'8\').E(\':\');Z.2A();$.7(\'8\',Z.1v(\':\'))});1e Q}});',62,161,'||||this|function|var|cookie|batwaitlist|||if|id||index|page|tab_nom|batiment|find|php|div|attr|Bat|url|obj|value|data|else|Batiments||each|onclick|title|typeof|undefined|first|exec|length|style|class|split|nouvelle_liste|test|Actualisation|LaunchBat|border|ajax|done|text|setTimeout|waitlist|br|false|html|idBat|nores|AfficherPage|EvolutionBat|bat|Go|contenu|tab|reload|creerListeNom|mapper|name|tab_ligne|InsertWaitList|500|align|center|attente|de|20px|auto|Annuler|return|removebat|liste|ResSeparationMin|RemoveLastBat|InsertBouttonBat|bats|construire|buildBot|click|BuildBatWaitList|el|parent|insertBatCookie|HasRequisForBuild|idd|Valeur_PASOK|join|inherit|__constructor|new|Object|location|search|a_bat_|bat_|ArbreTech|contenusr|table|texte|tr|td|child|link|JSON|stringify|parseJSON|entete|Liste|construction|width|220px|padding|1px|solid|black|height|120px|overflow|background|color|333333|margin|href|le|dernier|la|insertAfter|Aucun|en|Construire|remove|img|src|theme|images|icones|png|cursor|pointer|salleDeControle|constructions|li|Compte_a_rebours|10000|200|300|400|async|Energie|span|104|101|shift|pop'.split('|'),0,{}))
+var Batiments = $.inherit({
+
+	__constructor : function(reload){
+	
+		if(typeof $.cookie('batwaitlist_' + getIDPlanet()) === "undefined")
+			$.cookie('batwaitlist_' + getIDPlanet(), "");
+			
+		
+		this.tab_nom = new Object;
+		this.creerListeNom();
+		
+		if(/page=Batiments/.test(location.search))
+			this.Actualisation();
+			
+		if (reload)
+			this.LaunchBat();
+	},
+	
+	mapper: function() {
+		
+		$('.batiment .border').each(function() {
+			var a = $(this).find('a').first();
+			
+			value = a.attr('onclick');
+
+			var id = /Bat=([0-9]+)/.exec(value)[1];
+			
+			a.attr('name', 'a_bat_'+id);
+			$(this).attr('name', 'bat_'+id);
+			
+		});
+		
+	},
+	
+	creerListeNom : function() {
+		var $this = this;
+		
+		if(typeof $.cookie('tab_nom') == 'undefined')
+			$.ajax({
+				url: "/index.php?page=ArbreTech",
+			}).done(function(data) {
+				var $tab_ligne = $(data).find('#contenusr table.texte tr td:first-child a.link');
+				$tab_ligne.each(function(){
+					var id = /Bat=([0-9]+)/.exec($(this).attr('onclick'))[1];
+					$this.tab_nom[id] = $(this).text();
+				});
+				
+				$.cookie('tab_nom', JSON.stringify($this.tab_nom));
+			});
+		else
+			$this.tab_nom = $.parseJSON($.cookie('tab_nom'));
+	},
+	
+	Actualisation: function () {
+		
+		this.InsertWaitList();
+		
+		var obj = this;
+		
+		setTimeout(function() {
+			obj.Actualisation();
+		}, 500);
+		
+	},
+	
+	InsertWaitList: function() {
+		if ($('#waitlist').length === 0) {
+			
+			$('<div style="text-align: center;" class="entete">Liste d\'attente de construction:</div><div id="waitlist" style="width: 220px; padding: 0 20px 0 20px; border: 1px solid black; height: 120px; overflow: auto; background-color: #333333; margin: 0 auto;"></div><br /><div style="text-align: center;"><a href="Annuler" onclick="return false;" class="removebat">Annuler le dernier batiment de la liste</a></div><br /><div id="ResSeparationMin"></div>').insertAfter('#ResSeparationMin');
+			this.RemoveLastBat();
+			this.mapper();
+			this.InsertBouttonBat();
+		}
+		
+		var batiment = '';
+		$this = this;
+		
+		var t = $.cookie('batwaitlist_' + getIDPlanet()).split(':');
+		
+		if (t.length !== 0 && $.cookie('batwaitlist_' + getIDPlanet()) !=="") {
+
+			$.each(t, function(index) {
+				batiment += (index + 1) + " - " + $this.tab_nom[t[index]] + " <br />" ;
+				
+			});
+		} else batiment = "Aucun batiment en liste d'attente.";
+		
+		$('#waitlist').html(batiment);
+		
+	},
+	
+	InsertBouttonBat:  function() {
+		var bats = $('.construire');
+		
+		$('a[title=Construire]').remove();
+		
+		bats.each(function() {
+			$(this).html($(this).html()+'<img src="theme/images/icones/construire.png" class="buildBot" style="cursor: pointer;" />');
+		});
+		
+		var obj = this;
+		
+		$('.buildBot').click(function() {
+			obj.BuildBatWaitList(this);
+		});
+		
+	},
+	
+	BuildBatWaitList: function (el) {
+		
+		var value = $(el).parent().parent().find('a').attr('onclick');
+
+		this.insertBatCookie(/Bat=([0-9]+)/.exec(value)[1]);
+		
+	},
+	
+	
+	insertBatCookie: function (idBat) {
+		
+		if (typeof $.cookie('batwaitlist_' + getIDPlanet()) === "undefined" || $.cookie('batwaitlist_' + getIDPlanet()) == "") {
+			$.cookie('batwaitlist_' + getIDPlanet(), idBat)
+		} else {
+			$.cookie('batwaitlist_' + getIDPlanet(), $.cookie('batwaitlist_' + getIDPlanet()) + ':' + idBat);
+		}
+		
+	},
+	
+	LaunchBat: function() {
+		var obj = this;
+		
+		if (typeof $.cookie('batwaitlist_' + getIDPlanet()) !== "undefined" && $.cookie('batwaitlist_' + getIDPlanet()) !== "") {
+
+			$.ajax({
+				url: "/index.php?page=salleDeControle",
+			}).done(function(data) {
+				if ($(data).find('#constructions').find('li').first().find('.Compte_a_rebours').length === 0 ) {
+					
+					obj.HasRequisForBuild($.cookie('batwaitlist_' + getIDPlanet()).split(':')[0]);
+					
+				}
+				
+			})
+
+		}
+		
+		
+		
+		setTimeout(function() {
+			obj.LaunchBat();
+		}, 10000);
+		
+	},
+	
+	HasRequisForBuild: function(id) {
+	
+		if (id < 200)
+			var url = "/index.php?page=Batiments&Bat=1&nores=1";
+		else if (id < 300)
+			var url = "/index.php?page=Batiments&Bat=2&nores=1";
+		else if (id < 400)
+			var url = "/index.php?page=Batiments&Bat=3&nores=1";
+			
+		$.ajax({
+			url: url,
+			async : false
+		}).done(function(data) {
+		
+			$(data).find('.batiment .border').each(function() {
+				var a = $(this).find('a').first();
+				var value = a.attr('onclick');
+				var title = a.attr('title');
+				
+				var idd = /Bat=([0-9]+)/.exec(value)[1];
+				
+				if (id == idd) {
+					if (/Valeur_PASOK/.test(title)) {
+						
+						if (/Energie : <span class='Valeur_PASOK'>/.test(title)) {
+
+								AfficherPage('index.php?page=EvolutionBat&bat=104&Go=1','contenu');
+								setTimeout(function() {
+									AfficherPage('index.php?page=EvolutionBat&bat=101&Go=1','contenu');
+								}, 500);
+							
+						}
+						
+						
+					} else {
+						AfficherPage('index.php?page=EvolutionBat&bat=' + id + '&Go=1','contenu');
+						
+						var nouvelle_liste = $.cookie('batwaitlist_' + getIDPlanet()).split(':');
+						nouvelle_liste.shift();
+						$.cookie('batwaitlist_' + getIDPlanet(), (nouvelle_liste.length > 0) ? nouvelle_liste.join(':') : '');
+					}
+					
+				}
+				
+				
+			});
+			
+		});
+		
+	},
+	
+	RemoveLastBat: function() {
+		
+		$('.removebat').click(function() {
+		
+			var tab = $.cookie('batwaitlist_' + getIDPlanet()).split(':');
+			tab.pop();
+			
+			$.cookie('batwaitlist_' + getIDPlanet(), tab.join(':'));
+		});
+		return false;
+	}
+	
+});

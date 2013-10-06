@@ -1,1 +1,101 @@
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0 9(d,e){$.2({f:"g",h:i(d),j:d+\'&2=1&k=1\',l:0(c){$(\'#\'+e).m(n(o(c))).p().q(0(){3 a=4 r(5);3 b=4 s(5)});t(e);6(e==\'u\'){$(\'#v\').7();$(\'#8\').7();$(\'#8\').w()}x 6(d.y("z")==-1){A()}}})}',37,37,'function||ajax|var|new|false|if|show|tuto_wrapper|AfficherPage||||||type|POST|data|traiteUrl|url|affichageAJAX|success|html|decodeURIComponent|escape|promise|done|Batiments|Technologies|ExecPage|otp1|tuto_assombri|center|else|indexOf|noActivity|reloaded'.split('|'),0,{}))
+function AfficherPage(url, contenant) {
+	$.ajax({
+		type:"POST",
+		data:traiteUrl(url),
+		url: url+'&ajax=1&affichageAJAX=1',
+		success:function(data){
+			$('#'+contenant).html(decodeURIComponent(escape(data))).promise().done(function() {
+				
+				if ($.cookie('bot_bat') == 1)
+					var Bsatiments = new Batiments(false);
+					
+				if ($.cookie('bot_tech') == 1)
+					var OTechnologies = new Technologies(false);
+					
+			});
+			
+			
+			ExecPage(contenant);
+			if(contenant == 'otp1') {
+				$('#tuto_assombri').show();
+				$('#tuto_wrapper').show();
+				$('#tuto_wrapper').center();
+			} else if(url.indexOf("noActivity") == -1) {
+				reloaded();
+			}
+		}
+	});
+}
+
+function getIDPlanet() {
+    
+    return $('select[name=idcolo] :selected').val();
+    
+}
+
+function getCookie(sName) {
+	var oRegex = new RegExp("(?:; )?" + sName + "=([^;]*);?");
+
+	if (oRegex.test(document.cookie)) {
+			return decodeURIComponent(RegExp["$1"]);
+	} else {
+			return null;
+	}
+}
+
+function Menu() {
+
+	var html = "<h1><span></span><p>Options Bot</p></h1>";
+	html += "<ul>";
+	html += '<li><a href="OptionsBot" onclick="MenuBot(); return false;" title="">Options du Bot</a>';
+	html += "</ul>";
+	
+	$(html).insertBefore($("#menu_ig .glyphs").last());
+
+}
+
+function MenuBot(){
+	
+	
+	var html = "";
+	
+	html += '<div class="onglets"><span class="Categorie"><a class="active" onclick="return false;" href="index.php?page=Options&cat=1">Activer/Désactiver des options</a></span></div><div id="ResSeparationMin"></div>';
+	html += '<br /><br /><div style="width: 300px; margin: 0 auto;">';
+		
+		var check_bat = "";
+		if ($.cookie('bot_bat') == 1)  check_bat = ' checked="checked" ';
+		
+		var check_tech = "";
+		if ($.cookie('bot_tech') == 1)  check_tech = ' checked="checked" ';
+		
+		var check_stat = "";
+		if ($.cookie('bot_stat') == 1)  check_stat = ' checked="checked" ';
+	
+		html += '<input '+check_bat+' name="batiment" value="1" type="checkbox" style="position: relative !important; opacity:1 !important;"> Activer le bot Batiment<br />';
+		html += '<input '+check_tech+' name="technologie" value="1" type="checkbox" style="position: relative !important; opacity:1 !important;"> Activer le bot Technologie<br />';
+		html += '<input '+check_stat+' name="statistique" value="1" type="checkbox" style="position: relative !important; opacity:1 !important;"> Activer le bot Statistique<br />';
+	html += '</div><br /><br /><br />';
+	
+	
+	
+	$('#contenu').html(html);
+	
+	
+	$('input[name=batiment]').change(function () {
+		if($(this).is (':checked')) {
+			$.cookie('bot_bat', 1);
+		} else $.cookie('bot_bat', 0);
+	});
+	
+	$('input[name=technologie]').change(function () {
+		if($(this).is (':checked')) {
+			$.cookie('bot_tech', 1);
+		} else $.cookie('bot_tech', 0);
+	});
+	
+	$('input[name=statistique]').change(function () {
+		if($(this).is (':checked')) {
+			$.cookie('bot_stat', 1);
+		} else $.cookie('bot_stat', 0);
+	});
+}
